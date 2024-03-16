@@ -6,14 +6,14 @@ public class TargetedAd {
         /*  
         * TODO:
         * PREPARATION WORK
-        * (1) Create a file called targetWords.txt. Populate this file with words on each line that
+        * (1) Create a file called targetWords.txt. Populate this file with a word on each line that
         *     you think would determine if a user is a dog or cat owner.
         * 
         * PROGRAMMING
         * (2) Create a new DataCollector object and set the data to "socialMediaPostsSmall.txt" and "targetWords.txt"
         *     Important: Use the socialMedialPostsSmall to create your algorithm. Using a small file will help you 
         *     generate your solution quicker and give you the ability to double check your work.
-        * (3) Create a String variable to hold the names of all the user. (The first word of every post is 
+        * (3) Create a String variable to hold the names of all the users. (The first word of every post is 
         *     a person's username)
         * (4) Compare each user's post to each target word. If a user mentions a target word, add their username to 
         *     the String of users. Separate usernames with a space. 
